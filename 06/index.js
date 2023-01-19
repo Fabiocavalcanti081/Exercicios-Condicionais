@@ -7,7 +7,7 @@ if (alturaEmCm < 180) {
 } else if (alturaEmCm >= 186 && alturaEmCm <= 195) {
     console.log('PONTEIRO');
 } else if (alturaEmCm >= 196 && alturaEmCm <= 205) {
-    console.log('LÍBERO');
+    console.log('OPOSTO');
 } else {
     console.log('CENTRAL');
 }
