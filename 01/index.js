@@ -7,4 +7,6 @@ if (jogada1 === "pedra" && jogada2 === "tesoura" || jogada1 === "tesoura" && jog
     console.log("Papel ganhou!");
 } else if (jogada1 === "tesoura" && jogada2 === "papel" || jogada1 === "papel" && jogada2 === "tesoura") {
     console.log("Tesoura ganhou!");
+} else {
+    console.log("Empatou!");
 }
